@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcolo del prezzo del biglietto del treno</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <h2 id="ticket">
-        Quanti km il cliente deve percorrere?
-    </h2>
+    <h1>
+        Calcolo del prezzo del biglietto del treno
+    </h1>
 
-    <h2 id="ticket-age">
-        Qual è la sua età?
-    </h2>
+    <ul>
+        <li>
+            Quanti km il cliente deve percorrere? <span id="ticket"></span>
+        </li>
+
+        <li>
+            Qual è la sua età? <span id="ticket-age"></span>
+        </li>
+        
+        <li>
+            Qual è il prezzo? <span id="price-normal"></span>
+        </li>
+
+        <li>
+            Qual è lo sconto? <span id="discounted"></span>
+        </li>
+
+        <li>
+            Qual è il prezzo totale? <span id="discounted-total"></span>
+        </li>
+    </ul>
 
 
     <script type="text/javascript" src="js/scripts.js"></script>
