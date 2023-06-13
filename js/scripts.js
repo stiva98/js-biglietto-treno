@@ -42,3 +42,7 @@ else{
     document.getElementById('discounted').innerHTML = 0 + '€';
     document.getElementById('discounted-total').innerHTML = 0 + '€';
 }
+
+if (isNaN(parseInt(age)) || isNaN(parseInt(kmTraveled))) {
+    alert ('Scrivere solo valori numerici')
+ }
